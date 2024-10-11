@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity  {
         requestLatest();
 
         remainingDownloads = findViewById(R.id.remaining_downloads);
-        verified = new Boolean[1];
+        verified = new Boolean[0];
 
         deviceId = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
 
